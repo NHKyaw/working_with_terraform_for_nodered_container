@@ -24,10 +24,9 @@ A Windows-based system (as this repository contains Windows-specific file handli
 1. Clone the Repository
 Clone this repository to your local machine:
 
-(```
-git clone https://github.com/yourusername/terraform-docker-nodered.git
+
+```git clone https://github.com/yourusername/terraform-docker-nodered.git
 cd terraform-docker-nodered
-```)
 
 2. Initialize Terraform
 Run terraform init to initialize the Terraform configuration and download the required providers:
