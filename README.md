@@ -83,8 +83,6 @@ Leveraging Terraform’s random string resource for unique resource creation.
 Terraform: Infrastructure as Code (IaC) tool used to manage Docker container deployment.
 Docker: Containerization platform used to run Node-RED.
 Node-RED: Flow-based programming platform for integrating and automating various devices and services.
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 How to Use This README
 You can replace "yourusername" with your actual GitHub username.
