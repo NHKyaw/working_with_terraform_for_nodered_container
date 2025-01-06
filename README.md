@@ -27,17 +27,19 @@ Clone this repository to your local machine:
 
 ```git clone https://github.com/yourusername/terraform-docker-nodered.git
 cd terraform-docker-nodered
+```
 
 ## 2. Initialize Terraform
 Run terraform init to initialize the Terraform configuration and download the required providers:
 ```
 terraform init
+```
 ##3. Apply the Terraform Configuration
 Run terraform apply to create the Docker container and set up the local volume with the correct permissions:
 
-bash
-Copy code
+```
 terraform apply
+```
 You’ll be prompted to confirm the action by typing yes. Terraform will then create the Docker container, download the required image, set up the volume, and assign the necessary permissions.
 
 4. Access Node-RED
