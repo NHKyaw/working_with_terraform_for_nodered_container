@@ -44,10 +44,9 @@ You’ll be prompted to confirm the action by typing yes. Terraform will then cr
 
 4. Access Node-RED
 After the container is running, you can access Node-RED through your web browser:
-
-arduino
-Copy code
+```
 http://localhost:1880
+```
 You should be able to start using Node-RED for flow-based programming.
 
 🔧 Configuration Details
@@ -58,8 +57,7 @@ Permissions: icacls is used to grant full access to the volume folder for the Ev
 📝 Example Terraform Code
 Here’s a simplified view of the key components in the Terraform configuration:
 
-hcl
-Copy code
+```
 resource "docker_container" "nodered_container" {
   count = 1
   name  = join("-", ["nodered", random_string.random[count.index].result])
@@ -73,7 +71,8 @@ resource "docker_container" "nodered_container" {
     host_path      = "C:/Users/NHK/Desktop/Terraform/noderedvol"
   }
 }
-⚡ Key Learnings
+```
+⚡ **Key Learnings**
 How to manage Docker containers with Terraform.
 Setting up persistent storage in Docker containers using volumes.
 Handling permissions in a Windows environment for Docker volumes.
