@@ -28,13 +28,11 @@ Clone this repository to your local machine:
 ```git clone https://github.com/yourusername/terraform-docker-nodered.git
 cd terraform-docker-nodered
 
-2. Initialize Terraform
+## 2. Initialize Terraform
 Run terraform init to initialize the Terraform configuration and download the required providers:
-
-bash
-Copy code
+```
 terraform init
-3. Apply the Terraform Configuration
+##3. Apply the Terraform Configuration
 Run terraform apply to create the Docker container and set up the local volume with the correct permissions:
 
 bash
