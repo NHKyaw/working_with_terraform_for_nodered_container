@@ -1,3 +1,4 @@
+```
 terraform {
   required_providers {
     docker = {
@@ -44,4 +45,4 @@ icacls .\\noderedvol /grant Everyone:F
 EOT
   }
 }
-
+```
